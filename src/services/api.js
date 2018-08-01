@@ -11,7 +11,6 @@ const timeout = 5000;
 export const getCarOfTheWeek = () => {
   const url = `api/carOfTheWeek`;
 
-  // return {data: carOfTheWeek};
   return axios({
     method: 'GET',
     baseURL: baseURL,
@@ -23,7 +22,6 @@ export const getCarOfTheWeek = () => {
 export const getMakes = () => {
   const url = `api/makes`;
 
-  // return {data: makes};
   return axios({
     method: 'GET',
     baseURL: baseURL,
@@ -35,7 +33,6 @@ export const getMakes = () => {
 export const getModels = () => {
   const url = `api/models`;
 
-  // return {data:models};
   return axios({
     method: 'GET',
     baseURL: baseURL,
